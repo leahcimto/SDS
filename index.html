@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SDS Reply</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+  <body>
+		<p>Click on the copy button to copy the text next to it.</p>
+
+		<br>
+
+		<div class="container">
+		<textarea class="CopyText" id="Text1" readonly>Please do not advertise here. You can advertise in the show and tell forum instead ( https://scratch.mit.edu/discuss/8/ )</textarea>
+		<button onclick="myFunction(1)">Copy</button>
+		<br>
+		<br>
+		</div>
+
+		<div class="container">
+		<textarea class="CopyText" id="Text2" readonly>Hi there! I am sorry, but I don't see how this project relates to the current SDS theme. Feel free to try again! If you are stuck, there are some ideas in the studio description. :)</textarea>
+		<button onclick="myFunction(2)">Copy</button>
+		<br>
+		<br>
+		</div>
+
+
+		<div class="container">
+		<textarea class="CopyText" id="Text3" readonly>Please keep commments related to the SDS :D</textarea>
+		<button onclick="myFunction(3)">Copy</button>
+		<br>
+		<br>
+		</div>
+
+
+		<div class="container">
+		<textarea class="CopyText" id="Tex4" readonly>Please don't double post, as we add from the bottom and will get to your project eventually :D</textarea>
+		<button onclick="myFunction(4)">Copy</button>
+		<br>
+		<br>
+		</div>
+
+
+		<div class="container">
+		<textarea class="CopyText" id="Text5" readonly>Great work! I really like how you [INSERT WHAT YOU LIKED HERE]! I also liked how you [ANOTHER THING YOU LIKED]! A suggestion would be to [SUGGESTION TO IMPROVE], but that is optional as it is just a suggestion. I have added your project to the studio! Thanks for participating, and have a great day :D</textarea>
+		<button onclick="myFunction(5)">Copy</button>
+		<br>
+		<br>
+		</div>
+
+
+		<div class="container">
+		<textarea class="CopyText" id="Text6" readonly>Glad you are intested in curating! This project explains how you can become an SDS curator: https://scratch.mit.edu/projects/413689067/</textarea>
+		<button onclick="myFunction(6)">Copy</button>
+		<br>
+		<br>
+		</div>
+<!--
+		<br>
+
+		<h2 class="label" id="hws">Help With Scripts</h2>
+		<div class="container">
+		<textarea class="CopyText" id="Text9" readonly>The Help With Scripts forum is for users to ask questions and receive answers about their code. While it's nice that you want to help, posting random guides isn't the best way to do it - it clutters up the forum and potentially diverts attention from those who actually need help.</textarea>
+		<button onclick="myFunction(9)">Copy Text</button>
+		<br>
+		<br>
+		</div>
+
+		<br>
+
+		<h2 class="label" id="bag">Bugs And Glitches</h2>
+		<div class="container">
+		<textarea class="CopyText" id="Text10" readonly>What browser and OS are you using? You can find out this information by pressing the grey globe icon when you create a post.</textarea>
+		<button onclick="myFunction(10)">Copy Text</button>
+		<br>
+		<br>
+		</div>
+    -->
+		<script>
+			function myFunction(area) {
+  				var copyText = document.getElementById("Text"+area);
+ 				copyText.select();
+  				document.execCommand("copy");
+				}
+		</script>
+	</body>
+</html>
