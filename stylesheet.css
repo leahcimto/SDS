@@ -19,7 +19,7 @@ body {
 	padding: 10px 20px;
 	border: 2px solid black;
 	border-radius: 10px;
-	background-color: #40ff9f;
+	background-color: #dbffe8;
 	font-family: 'Montserrat';
 	resize: none;
 	}
@@ -31,6 +31,6 @@ button {
 	padding: 15px 15px;
 	border: 2px solid #ccc;
 	border-radius: 10px;
-	background-color: #40ff9f;
+	background-color: #dbffe8;
 	font-family: 'Montserrat';
 	}
